@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "yls"
+name = "yls-macos-arm"
 version = "1.4.0"
 description = "YARA Language Server"
 authors = ["Matej Kašťák <matej.kastak@avast.com>"]
-maintainers = ["Matej Kašťák <matej.kastak@avast.com>"]
+maintainers = [
+  "Matej Kašťák <matej.kastak@avast.com>",
+  "Nils Kuhnert <3c7@posteo.de>",
+]
 readme = "README.md"
 license = "MIT"
 include = ["py.typed", "LICENSE", "LICENSE-THIRD-PARTY"]
@@ -19,7 +22,7 @@ pytest-cov = "^3.0.0"
 pytest-mock = "^3.7.0"
 pytest-mypy = "^0.9.1"
 pytest-pylint = "0.19.0"
-pytest-yls = {path = "./pytest-yls", develop = true}
+pytest-yls = { path = "./pytest-yls", develop = true }
 
 [tool.black]
 line-length = 100
@@ -56,10 +59,10 @@ test = "pytest -vvv --mypy --black --pylint --pylint-rcfile=pyproject.toml --cov
 yls = 'yls.server:main'
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.12"
+python = ">=3.11,<3.12"
 pygls = "^1.1.2"
 yaramod = "^3.20.1"
-yari-py = "^0.1.6"
+yari-py-macos-arm = "^0.2.1"
 pluggy = "^1.0.0"
 
 [build-system]
@@ -68,9 +71,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
-testpaths = [
-    "tests"
-]
+testpaths = ["tests"]
 
 
 [tool.mypy]

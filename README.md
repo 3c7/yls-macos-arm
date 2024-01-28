@@ -1,3 +1,5 @@
+**This is a temporary fork of the original YLS repository (avast/yls) in order to allow an easy installation of all components on macOS ARM devices.**
+
 # YLS
 
 ![PyPI](https://img.shields.io/pypi/v/yls?label=yls)
