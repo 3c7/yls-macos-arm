@@ -1,5 +1,7 @@
 **This is a temporary fork of the original YLS repository (avast/yls) in order to allow an easy installation of all components on macOS ARM devices.**
 
+This repository only includes changes that allow publishing this python module under a different name - `yls-macos-arm` - as well as including `yari-py-macos-arm` as a dependency instead of the default `yari-py` module. There are no changes to the code itself.
+
 # YLS
 
 ![PyPI](https://img.shields.io/pypi/v/yls?label=yls)

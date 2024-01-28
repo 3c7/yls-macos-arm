@@ -59,7 +59,7 @@ test = "pytest -vvv --mypy --black --pylint --pylint-rcfile=pyproject.toml --cov
 yls = 'yls.server:main'
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
+python = ">=3.11,<=3.12"
 pygls = "^1.1.2"
 yaramod = "^3.20.1"
 yari-py-macos-arm = "^0.2.1"
