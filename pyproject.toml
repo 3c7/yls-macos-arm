@@ -3,10 +3,7 @@ name = "yls-macos-arm"
 version = "1.4.0"
 description = "YARA Language Server"
 authors = ["Matej Kašťák <matej.kastak@avast.com>"]
-maintainers = [
-  "Matej Kašťák <matej.kastak@avast.com>",
-  "Nils Kuhnert <3c7@posteo.de>",
-]
+maintainers = ["Nils Kuhnert <3c7@posteo.de>"]
 readme = "README.md"
 license = "MIT"
 include = ["py.typed", "LICENSE", "LICENSE-THIRD-PARTY"]

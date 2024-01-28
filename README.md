@@ -2,6 +2,8 @@
 
 This repository only includes changes that allow publishing this python module under a different name - `yls-macos-arm` - as well as including `yari-py-macos-arm` as a dependency instead of the default `yari-py` module. There are no changes to the code itself.
 
+**This repository is not managed by Avast. If you have issues, please report them upstream.**
+
 # YLS
 
 ![PyPI](https://img.shields.io/pypi/v/yls?label=yls)
