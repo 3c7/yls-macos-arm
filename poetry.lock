@@ -379,13 +379,13 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "poethepoet"
-version = "0.13.1"
+version = "0.24.4"
 description = "A task runner that works well with poetry."
 optional = false
-python-versions = ">=3.6.2"
+python-versions = ">=3.8"
 files = [
-    {file = "poethepoet-0.13.1-py3-none-any.whl", hash = "sha256:47e7b38c8b5412f840447f7612a9330697e8633e7500a7340b6734f50e26e380"},
-    {file = "poethepoet-0.13.1.tar.gz", hash = "sha256:4f6962f17f5d5a453fd7fa66e3e7897e9191d4289148433efe441c81f2451a46"},
+    {file = "poethepoet-0.24.4-py3-none-any.whl", hash = "sha256:fb4ea35d7f40fe2081ea917d2e4102e2310fda2cde78974050ca83896e229075"},
+    {file = "poethepoet-0.24.4.tar.gz", hash = "sha256:ff4220843a87c888cbcb5312c8905214701d0af60ac7271795baa8369b428fef"},
 ]
 
 [package.dependencies]
@@ -670,4 +670,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "c48d2752769f6de4b10fab0430ff5a68b535fc2aefcef8285ffc3632f6d4bb04"
+content-hash = "f5578052e1b52eb474949be4b913c76d0c7b94524b9b732a1b14a3edc3ae7302"
